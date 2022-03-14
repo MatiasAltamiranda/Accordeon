@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.accordion-item{
+    width: 80%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.accordion-button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+.accordion-button-icon{
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    font-size: 2rem;
+    transition: transform 0.5s;
+}
+
+.accordion-paragraph{
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    display: none;
+}
+
+.collapse{
+    transform: rotate(180deg);
+}
+
+.active{
+    display: block;
+}
